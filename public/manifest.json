@@ -1,0 +1,17 @@
+{
+  "name": "AskSQL",
+  "short_name": "AskSQL",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#22bf08",
+  "background_color": "#07061D",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
