@@ -81,8 +81,8 @@ export default function Home() {
           onValueChange={() => { }}
           highlight={code => highlight(code, languages.sql, 'sql')}
           padding={16}
-          textareaClassName='outline-none text-foam'
-          className="my-4 bg-transparent border border-blueberry-300 rounded-md "
+          textareaClassName='outline-none '
+          className="my-4 bg-transparent border border-blueberry-300 rounded-md text-foam"
         />
       </div>
 

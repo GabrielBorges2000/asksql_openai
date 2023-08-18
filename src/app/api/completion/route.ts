@@ -23,6 +23,11 @@ export async function POST(req: Request) {
 
     A partir do schema acima, escrema uma query SQL a partir da solicitação abaixo.
     Me retorne somente o código SQL, nada além disso a não ser que eu peça.
+    Se eu te fize rum apergunta que não seja enviado o schema sql, 
+    quero que você peça somente para enviar a schema e nada além disso.
+    As vezes só vai ser enviado as columnas que tem na minha tabela
+    ai você pode criar uma query que faça uma chamada para consumir esse banco, 
+    mas somente se for solicitado isso a você e nada além disso.
 
     Solicitação: ${prompt}
   `.trim()
