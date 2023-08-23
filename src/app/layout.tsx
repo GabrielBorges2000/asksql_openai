@@ -3,7 +3,11 @@ import type { Metadata } from 'next'
 import { Inter, Ubuntu_Mono } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-const ubuntoMono = Ubuntu_Mono({ subsets: ['latin'], weight: '400', variable: '--font-ubunto' })
+const ubuntoMono = Ubuntu_Mono({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-ubunto',
+})
 
 export const metadata: Metadata = {
   title: 'AskSql',
@@ -17,9 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${ubuntoMono.variable}`}>
-      <body className='bg-blueberry-900'>
-        {children}
-      </body>
+      <body className="bg-blueberry-900">{children}</body>
     </html>
   )
 }
