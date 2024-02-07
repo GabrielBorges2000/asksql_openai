@@ -2,6 +2,10 @@
 
 Esse projeto foi desenvolvido com o objetivo de facilitar o desenvolvimento de aplicações que precisão usar querys sql para acessar informações do banco de dados, porém é necessário ter uma chave de API da OpenAI para utilizar.
 
+<div align="center">
+  <img src="./public/Cover.png" width="100%" alt="Imagem conceitual da Aplicação" style="margin-top: 50px;">
+</div>
+
 # 💻 Pré-requisitos
 Antes de começar, verifique se você atende aos seguintes requisitos:
 
